@@ -45,7 +45,20 @@ const Projects = () => {
         <div>
             <h1 className='section-title'>Projects</h1>
             <div className='project-card'>
-                <h2>{allProjects[0].title}</h2>
+                {allProjects.map((project, index) => {
+                    return(
+                        <div className='project-card'>
+                            <h2>{project.title}</h2>
+                            <img src={project.screenshot}></img>
+                            <h3>{project.languages.map((language, index) => {
+                                return(
+                                    <h4>{language}</h4>
+                                )
+                            })}</h3>
+                        </div>
+                            
+                    )
+                })}
             </div>
         </div>
     )
