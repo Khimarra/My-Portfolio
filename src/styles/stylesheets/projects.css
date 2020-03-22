@@ -44,14 +44,34 @@ a {
   color: #00fde8;
   text-shadow: 0 0 5px #00fde8, 0 0 10px #00b6a7; }
 
-nav {
+.projects {
+  padding-top: 30px; }
+  .projects .project-card {
+    margin: auto;
+    background: white;
+    background: radial-gradient(circle, white 0%, #cccccc 48%, #7c7c7c 100%);
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px black;
+    padding: 15px;
+    margin: 50px 10px;
+    height: 450px; }
+    .projects .project-card .image-container {
+      width: 90%;
+      margin: 20px auto; }
+    .projects .project-card img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 2px 5px 10px #3a3a3a; }
+
+.languages {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 50px;
-  background-color: black;
-  position: sticky;
-  top: 0; }
+  justify-content: center;
+  flex-wrap: wrap; }
+  .languages h4 {
+    background-color: #cccccc;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin: 3px; }
 
-/*# sourceMappingURL=navbar.css.map */
+/*# sourceMappingURL=projects.css.map */
