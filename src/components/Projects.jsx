@@ -54,34 +54,36 @@ const Projects = () => {
         <div className='projects'>
             <a id='projects'><h1 className='section-title'>Projects</h1></a>
             <div>
-                {allProjects.map((project, index) => {
-                    return (
-                        <div className='project-card'>
-                            <h2>{project.title}</h2>
-                            <div className='image-container'>
-                                <img src={project.screenshot}></img>
-                            </div>
-                            <div className='languages'>
-                                {project.languages.map((language, index) => {
-                                    return (
-                                        <h4>#{language}</h4>
-                                    )
-                                })}
+                <div className='all-projects'>
+
+                    {allProjects.map((project, index) => {
+                        return (
+                            <div className='project-card'>
+                                <h2>{project.title}</h2>
+                                <div className='image-container'>
+                                    <img src={project.screenshot}></img>
+                                </div>
+                                <div className='languages'>
+                                    {project.languages.map((language, index) => {
+                                        return (
+                                            <h4>#{language}</h4>
+                                        )
+                                    })}
+                                    
+                                </div>
                                 
+                                <div className='fa-links project-links'>
+                                    <a className='icons' href={`${project.url}`}>
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                    <a className='icons' href={`${project.github}`}>
+                                        <i className="fab fa-github-square"></i>
+                                    </a>
+                                </div>
                             </div>
-
-                            <div className='fa-links'>
-                                <a className='icons' href={`${project.url}`}>
-                                    <i class="fas fa-link"></i>
-                                </a>
-                                <a className='icons' href={`${project.github}`}>
-                                    <i className="fab fa-github-square"></i>
-                                </a>
-                            </div>
-
-                        </div>
-                    )
-                })}
+                        )
+                    })}
+                </div>
             </div>
         </div>
     )

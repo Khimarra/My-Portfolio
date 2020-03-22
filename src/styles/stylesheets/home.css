@@ -10,8 +10,11 @@ h1, h2, h3, h4, p {
   margin: 0; }
 
 h1 {
+  margin-left: 10vw;
   font-size: 25px;
-  padding: 10px; }
+  padding: 10px;
+  color: #ffa36e;
+  text-shadow: 0 0 5px #ffa36e, 0 0 10px #ffa36e, 0 0 15px #e6671d; }
 
 h2 {
   font-size: 20px;
@@ -24,7 +27,8 @@ p {
   font-size: 12px; }
 
 span, .navlink {
-  color: #00b6a7; }
+  color: #00b6a7;
+  text-shadow: none; }
 
 a {
   text-decoration: none; }
@@ -32,15 +36,21 @@ a {
 .fa-links {
   text-align: center;
   letter-spacing: 20px;
-  padding-left: 10px; }
+  padding-left: 10px;
+  margin: 30px; }
+
+.project-links {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; }
 
 .icons {
   color: #00b6a7;
   font-size: 30px;
-  text-align: center;
   text-shadow: 0 0 5px #3a3a3a; }
 
-.navlink:hover, .icons:hover {
+span, .navlink:hover, .icons:hover {
   color: #00fde8;
   text-shadow: 0 0 5px #00fde8, 0 0 10px #00b6a7; }
 

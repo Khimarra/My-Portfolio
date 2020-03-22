@@ -6,6 +6,7 @@ $font-sand: 'Quicksand', sans-serif;
 
 // ------ COLORS ------
 $orange: rgb(230, 103, 29);
+$light-orange: rgb(255, 163, 110);
 $teal: rgb(0, 182, 167);
 $light-teal: rgb(0, 253, 232);
 $light-gray: rgb(204, 204, 204);
@@ -26,8 +27,11 @@ h1, h2, h3, h4, p {
 }
 
 h1 {
+    margin-left: 10vw;
     font-size: 25px;
     padding: 10px;
+    color: $light-orange;
+    text-shadow: 0 0 5px $light-orange, 0 0 10px $light-orange, 0 0 15px $orange;
 }
 
 h2 {
@@ -45,6 +49,7 @@ p {
 
 span, .navlink {
     color: $teal;
+    text-shadow: none;
 }
 
 a {
@@ -55,16 +60,23 @@ a {
     text-align: center;
     letter-spacing: 20px;
     padding-left: 10px;
+    margin: 30px;
+}
+
+.project-links {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .icons {
     color: $teal;
     font-size: 30px;
-    text-align: center;
     text-shadow: 0 0 5px $dark-gray;
 }
 
-.navlink:hover, .icons:hover {
+span, .navlink:hover, .icons:hover {
     color: $light-teal;
     text-shadow: 0 0 5px $light-teal, 0 0 10px $teal;
 }
