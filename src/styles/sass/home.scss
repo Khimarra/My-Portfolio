@@ -1,0 +1,22 @@
+@import 'base';
+
+.home-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../images/skyline.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hello {
+    text-align: right;
+    width: 25vw;
+    margin-left: 60vw;
+    padding-top: 20vw;
+}
+
+.mini-bio {
+    width: 50vw;
+    margin-left: 10vw;
+    padding-top: 40vw;
+}

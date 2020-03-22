@@ -13,12 +13,19 @@ $dark-gray: rgb(49, 49, 49);
 
 
 
-* {
-    background-color: $dark-gray;
+h1, h2, h3, h4, p {
+    font-family: $font-sand;
+    font-weight: 100;
+    color: $orange;
+    margin: 0;
 }
 
-h1, h2, h3, p {
-    color: $orange;
+span, .navlink {
+    color: $teal;
+}
+
+a {
+    text-decoration: none;
 }
 
 img {

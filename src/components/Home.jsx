@@ -1,11 +1,11 @@
 import React from 'react'
-import skyline from '../images/skyline.jpg'
+import '../styles/stylesheets/home.css'
 
 const Home = () => {
     return (
-        <div>
-            <img src={skyline} alt='NYC from Queens'></img>
-            <h1 className='hello'>Hello, I'm Tara Solbrig</h1>
+        <div className='home-container'>
+            <a id='home'></a>
+            <h1 className='hello'>Hi, I'm <span>Tara Solbrig</span></h1>
             <h1 className='mini-bio'>I'm a full-stack web developer and software engineer</h1>
         </div>
     )
