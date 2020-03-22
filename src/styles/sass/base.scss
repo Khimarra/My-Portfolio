@@ -17,6 +17,7 @@ $dark-gray: rgb(58, 58, 58);
     background-color: $dark-gray;
     background-image: url('../../images/metal.jpg');
     background-blend-mode: multiply;
+    padding-bottom: 100px;
 }
 
 h1, h2, h3, h4, p {
@@ -79,4 +80,24 @@ a {
 span, .navlink:hover, .icons:hover {
     color: $light-teal;
     text-shadow: 0 0 5px $light-teal, 0 0 10px $teal;
+}
+
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    h4 {
+        background-color: $light-gray;
+        border-radius: 20px;
+        padding: 5px 15px;
+        margin: 3px;
+    }
+}
+
+.about-languages h4 {
+    background: $dark-gray;
+    color: $light-orange;
+    text-shadow: 0 0 5px $light-orange, 0 0 10px $light-orange, 0 0 15px $orange;
 }

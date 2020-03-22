@@ -71,19 +71,24 @@ span, .navlink:hover, .icons:hover {
   color: #ffa36e;
   text-shadow: 0 0 5px #ffa36e, 0 0 10px #ffa36e, 0 0 15px #e6671d; }
 
-.about {
-  position: relative; }
-  .about .headshot-container {
-    margin: 20px auto;
-    width: 150px;
-    background-color: #cccccc;
-    box-shadow: 2px 5px 10px black; }
-    .about .headshot-container img {
-      padding: 10px;
-      width: 130px; }
-  .about p {
-    width: 250px;
-    margin: 20px auto;
-    text-align: center; }
+.form-container {
+  background: white;
+  background: radial-gradient(circle, white 0%, #cccccc 41%, #5d5d5d 100%);
+  width: 200px;
+  height: 250px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px; }
 
-/*# sourceMappingURL=about.css.map */
+.button {
+  display: inline-block;
+  background: linear-gradient(0deg, #e6671d 0%, #ffa36e 88%, #e6671d 100%);
+  box-shadow: 0 5px 10px #3a3a3a;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  color: white;
+  padding: 5px 10px;
+  margin: 20px auto; }
+
+/*# sourceMappingURL=contact.css.map */

@@ -32,16 +32,3 @@
         }
     }
 }
-
-.languages {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    h4 {
-        background-color: $light-gray;
-        border-radius: 20px;
-        padding: 5px 15px;
-        margin: 3px;
-    }
-}

@@ -1,0 +1,23 @@
+@import 'base';
+
+.form-container {
+    background: white;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(204,204,204,1) 41%, rgba(93,93,93,1) 100%);    
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.button {
+    display: inline-block;
+    background: linear-gradient(0deg, $orange 0%, $light-orange 88%, $orange 100%);
+    box-shadow: 0 5px 10px $dark-gray;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    padding: 5px 10px;
+    margin: 20px auto;
+}
