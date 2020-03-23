@@ -17,6 +17,15 @@
         width: 250px;
         margin: 20px auto;
         text-align: center;
+
+        @media (min-width: $breakpoint-phablet) {
+            width: 500px;
+        }
+    }
+
+    @media (min-width: $breakpoint-phablet) {
+        width: 500px;
+        margin: auto;
     }
 }
 
@@ -26,6 +35,10 @@
     text-align: center;
     margin-bottom: 30px;
     font-size: 20px;
+
+    @media (min-width: $breakpoint-phablet) {
+        font-size: 25px;
+    }
 }
 
 .resume-link h3:hover {

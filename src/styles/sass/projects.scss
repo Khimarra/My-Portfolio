@@ -32,3 +32,10 @@
         }
     }
 }
+
+.section-title {
+    @media (min-width: $breakpoint-phablet) {
+        text-align: center;
+        margin: 0;
+    }
+}

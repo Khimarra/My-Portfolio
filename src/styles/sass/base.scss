@@ -13,6 +13,11 @@ $light-gray: rgb(204, 204, 204);
 $mid-gray: rgb(182, 182, 182);
 $dark-gray: rgb(58, 58, 58);
 
+// ------ MEDIA QUERIES ------
+$breakpoint-phablet: 600px;
+$breakpoint-tablet: 900px;
+$breakpoint-desktop: 1200px;
+
 .app {
     background-color: $dark-gray;
     background-image: url('../../images/metal.jpg');
@@ -33,6 +38,14 @@ h1 {
     padding: 10px;
     color: $light-orange;
     text-shadow: 0 0 5px $light-orange, 0 0 10px $light-orange, 0 0 15px $orange;
+
+    @media (min-width: $breakpoint-phablet) {
+        font-size: 30px;
+    }
+
+    @media (min-width: $breakpoint-tablet) {
+        font-size: 40px;
+    }
 }
 
 h2 {
@@ -40,12 +53,16 @@ h2 {
     font-weight: 700;
 }
 
-h3 {
+h3, p {
     font-size: 15px;
-}
 
-p {
-    font-size: 15px;
+    @media (min-width: $breakpoint-phablet) {
+        font-size: 18px;
+    }
+
+    @media (min-width: $breakpoint-tablet) {
+        font-size: 23px;
+    }
 }
 
 span, .navlink {

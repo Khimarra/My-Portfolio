@@ -16,16 +16,25 @@ h1 {
   padding: 10px;
   color: #ffa36e;
   text-shadow: 0 0 5px #ffa36e, 0 0 10px #ffa36e, 0 0 15px #e6671d; }
+  @media (min-width: 600px) {
+    h1 {
+      font-size: 30px; } }
+  @media (min-width: 900px) {
+    h1 {
+      font-size: 40px; } }
 
 h2 {
   font-size: 20px;
   font-weight: 700; }
 
-h3 {
+h3, p {
   font-size: 15px; }
-
-p {
-  font-size: 15px; }
+  @media (min-width: 600px) {
+    h3, p {
+      font-size: 18px; } }
+  @media (min-width: 900px) {
+    h3, p {
+      font-size: 23px; } }
 
 span, .navlink {
   color: #00b6a7;
@@ -85,6 +94,13 @@ span, .navlink:hover, .icons:hover {
     width: 250px;
     margin: 20px auto;
     text-align: center; }
+    @media (min-width: 600px) {
+      .about p {
+        width: 500px; } }
+  @media (min-width: 600px) {
+    .about {
+      width: 500px;
+      margin: auto; } }
 
 .resume-link h3 {
   color: #00b6a7;
@@ -92,6 +108,9 @@ span, .navlink:hover, .icons:hover {
   text-align: center;
   margin-bottom: 30px;
   font-size: 20px; }
+  @media (min-width: 600px) {
+    .resume-link h3 {
+      font-size: 25px; } }
 
 .resume-link h3:hover {
   color: #00fde8;
