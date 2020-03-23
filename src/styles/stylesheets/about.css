@@ -25,7 +25,7 @@ h3 {
   font-size: 15px; }
 
 p {
-  font-size: 12px; }
+  font-size: 15px; }
 
 span, .navlink {
   color: #00b6a7;
@@ -85,5 +85,16 @@ span, .navlink:hover, .icons:hover {
     width: 250px;
     margin: 20px auto;
     text-align: center; }
+
+.resume-link h3 {
+  color: #00b6a7;
+  text-shadow: none;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px; }
+
+.resume-link h3:hover {
+  color: #00fde8;
+  text-shadow: 0 0 5px #00fde8, 0 0 10px #00b6a7; }
 
 /*# sourceMappingURL=about.css.map */

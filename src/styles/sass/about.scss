@@ -19,3 +19,16 @@
         text-align: center;
     }
 }
+
+.resume-link h3 {
+    color: $teal;
+    text-shadow: none;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.resume-link h3:hover {
+    color: $light-teal;
+    text-shadow: 0 0 5px $light-teal, 0 0 10px $teal;
+}

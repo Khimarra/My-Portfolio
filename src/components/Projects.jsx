@@ -73,10 +73,10 @@ const Projects = () => {
                                 </div>
                                 
                                 <div className='fa-links project-links'>
-                                    <a className='icons' href={`${project.url}`}>
+                                    <a className='icons' href={`${project.url}`} target='_blank'>
                                         <i class="fas fa-link"></i>
                                     </a>
-                                    <a className='icons' href={`${project.github}`}>
+                                    <a className='icons' href={`${project.github}`} target='_blank'>
                                         <i className="fab fa-github-square"></i>
                                     </a>
                                 </div>
