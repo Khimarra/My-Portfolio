@@ -18,9 +18,22 @@ $breakpoint-phablet: 600px;
 $breakpoint-tablet: 900px;
 $breakpoint-desktop: 1200px;
 
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
 .app {
     background-color: $dark-gray;
     background-image: url('../../images/metal.jpg');
+    background-repeat: cover;
     background-blend-mode: multiply;
     padding-bottom: 100px;
 }
