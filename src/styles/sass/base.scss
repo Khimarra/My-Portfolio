@@ -41,8 +41,9 @@ body, html {
 h1, h2, h3, h4, p {
     font-family: $font-sand;
     font-weight: 100;
-    color: $orange;
+    color: $light-orange;
     margin: 0;
+    text-shadow: 0 0 5px $orange, 0 0 10px $light-orange, -2px 2px 4px black;
 }
 
 h1 {
@@ -123,6 +124,8 @@ span, .navlink:hover, .icons:hover {
         border-radius: 20px;
         padding: 5px 15px;
         margin: 3px;
+        color: $orange;
+        text-shadow: 0 0 5px $orange, 0 0 10px $light-orange;
     }
 }
 

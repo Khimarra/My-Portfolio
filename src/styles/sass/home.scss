@@ -13,10 +13,10 @@
     text-align: right;
     width: 25vw;
     margin-left: 60vw;
-    padding-top: 20vw;
+    padding-top: 20vh;
 
     @media (min-width: $breakpoint-tablet) {
-        padding-top: 15vw;
+        padding-top: 25vh;
     }
 }
 
@@ -26,10 +26,10 @@
     padding-top: 40vw;
 
     @media (min-width: $breakpoint-phablet) {
-        padding-top: 30vw;
+        padding-top: 30vh;
     }
 
     @media (min-width: $breakpoint-tablet) {
-        padding-top: 15vw;
+        padding-top: 35vh;
     }
 }

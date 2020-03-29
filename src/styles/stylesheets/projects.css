@@ -18,8 +18,9 @@ body, html {
 h1, h2, h3, h4, p {
   font-family: "Quicksand", sans-serif;
   font-weight: 100;
-  color: #e6671d;
-  margin: 0; }
+  color: #ffa36e;
+  margin: 0;
+  text-shadow: 0 0 5px #e6671d, 0 0 10px #ffa36e, -2px 2px 4px black; }
 
 h1 {
   margin-left: 10vw;
@@ -84,7 +85,9 @@ span, .navlink:hover, .icons:hover {
     background-color: #cccccc;
     border-radius: 20px;
     padding: 5px 15px;
-    margin: 3px; }
+    margin: 3px;
+    color: #e6671d;
+    text-shadow: 0 0 5px #e6671d, 0 0 10px #ffa36e; }
 
 .about-languages h4 {
   background: #3a3a3a;

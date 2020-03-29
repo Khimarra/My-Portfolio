@@ -18,8 +18,9 @@ body, html {
 h1, h2, h3, h4, p {
   font-family: "Quicksand", sans-serif;
   font-weight: 100;
-  color: #e6671d;
-  margin: 0; }
+  color: #ffa36e;
+  margin: 0;
+  text-shadow: 0 0 5px #e6671d, 0 0 10px #ffa36e, -2px 2px 4px black; }
 
 h1 {
   margin-left: 10vw;
@@ -84,7 +85,9 @@ span, .navlink:hover, .icons:hover {
     background-color: #cccccc;
     border-radius: 20px;
     padding: 5px 15px;
-    margin: 3px; }
+    margin: 3px;
+    color: #e6671d;
+    text-shadow: 0 0 5px #e6671d, 0 0 10px #ffa36e; }
 
 .about-languages h4 {
   background: #3a3a3a;
@@ -95,16 +98,20 @@ span, .navlink:hover, .icons:hover {
   background: white;
   background: radial-gradient(circle, white 0%, #cccccc 41%, #3a3a3a 100%);
   width: 250px;
-  height: 300px;
+  height: 400px;
   margin: auto;
   padding: 30px;
   border-radius: 10px; }
   @media (min-width: 900px) {
     .form-container {
-      height: 350px; } }
+      height: 430px; } }
 
 .textarea, .text {
-  max-width: 190px; }
+  width: 190px;
+  margin: 7px 0;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid #b6b6b6; }
 
 .button {
   display: inline-block;

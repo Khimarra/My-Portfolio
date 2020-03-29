@@ -5,26 +5,15 @@ const Projects = () => {
 
     let allProjects = [
         {
-            title: 'Techwitch Tarot',
-            url: 'https://pages.git.generalassemb.ly/Khimarra/Techwitch-Tarot/',
-            github: 'https://git.generalassemb.ly/Khimarra/Techwitch-Tarot',
-            screenshot: 'https://i.imgur.com/BSt1vYN.jpg',
+            title: 'Bspoke',
+            url: 'http://bspoke-app.herokuapp.com/',
+            github: 'https://git.generalassemb.ly/Khimarra/Bspoke',
+            screenshot: 'https://i.imgur.com/F1mNU6x.jpg',
             languages: [
-                'JavaScript', 'HTML', 'CSS'
+                'React', 'Ruby on Rails', 'SASS'
             ],
-            APIs: 'https://rws-cards-api.herokuapp.com/',
-            description: 'this is a description of my tarot app'
-        },
-        {
-            title: 'The Intermet',
-            url: 'http://the-intermet.surge.sh/',
-            github: 'https://git.generalassemb.ly/Khimarra/The-InterMet',
-            screenshot: 'https://i.imgur.com/UqOSWyr.jpg',
-            languages: [
-                'React', 'CSS'
-            ],
-            APIs: 'https://www.metmuseum.org/blogs/now-at-the-met/2018/met-collection-api',
-            description: 'React app built using a RESTful API to retreive and render info from the Met Collection.'
+            APIs: '',
+            description: 'A full-stack app with user authentication and full CRUD capabilities. Users can create an account and display their own art.'
         },
         {
             title: 'NJTransit Re-design',
@@ -38,15 +27,26 @@ const Projects = () => {
             description: 'Group project, full-stack mobile site, based on wireframes provided by UX designers tasked with re-designing the existing NJTransit mobile site.'
         },
         {
-            title: 'Bspoke',
-            url: 'http://bspoke-app.herokuapp.com/',
-            github: 'https://git.generalassemb.ly/Khimarra/Bspoke',
-            screenshot: 'https://i.imgur.com/F1mNU6x.jpg',
+            title: 'The Intermet',
+            url: 'http://the-intermet.surge.sh/',
+            github: 'https://git.generalassemb.ly/Khimarra/The-InterMet',
+            screenshot: 'https://i.imgur.com/UqOSWyr.jpg',
             languages: [
-                'React', 'Ruby on Rails', 'SASS'
+                'React', 'CSS'
             ],
-            APIs: '',
-            description: 'A full-stack app with user authentication and full CRUD capabilities. Users can create an account and display their own art.'
+            APIs: 'https://www.metmuseum.org/blogs/now-at-the-met/2018/met-collection-api',
+            description: 'React app built using a RESTful API to retreive and render info from the Met Collection.'
+        },
+        {
+            title: 'Techwitch Tarot',
+            url: 'https://pages.git.generalassemb.ly/Khimarra/Techwitch-Tarot/',
+            github: 'https://git.generalassemb.ly/Khimarra/Techwitch-Tarot',
+            screenshot: 'https://i.imgur.com/BSt1vYN.jpg',
+            languages: [
+                'JavaScript', 'HTML', 'CSS'
+            ],
+            APIs: 'https://rws-cards-api.herokuapp.com/',
+            description: 'this is a description of my tarot app'
         }
     ]
 
