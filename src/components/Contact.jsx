@@ -15,14 +15,14 @@ const Contact = () => {
                         className='text'
                         type="text" 
                         name="name" 
-                        placeholder='name'
+                        placeholder='first and last'
                     ></input>
                     <h3>Email:</h3>
                     <input 
                         className='text'
                         type="email" 
                         name="_replyto" 
-                        placeholder='email'
+                        placeholder='valid email'
                     ></input>
                     <h3>Message:</h3>
                     <textarea 
@@ -31,7 +31,7 @@ const Contact = () => {
                         name='message' 
                         rows='7' 
                         cols='30' 
-                        placeholder='send me words'
+                        placeholder='write me a message'
                     ></textarea>
                     <input 
                         className='button' 
