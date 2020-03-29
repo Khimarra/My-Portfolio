@@ -110,7 +110,8 @@ span, .navlink:hover, .icons:hover {
     height: 450px;
     margin: 10px;
     position: relative;
-    transition: all .3s ease-in-out; }
+    transition: all .3s ease-in-out;
+    cursor: pointer; }
     .projects .project-card .image-container {
       width: 90%;
       margin: 20px auto; }
