@@ -2,38 +2,35 @@
 
 .home-container {
     height: 100vh;
-    background-image: url('../../images/skyline.jpg');
-    background-color: black;
-    background-position: center;
-    background-repeat: no-repeat;
     box-shadow: 0 0 20px black;
-}
 
-.hello {
-    text-align: right;
-    width: 25vw;
-    margin-left: 60vw;
-    padding-top: 20vh;
-
-    @media (min-width: $breakpoint-tablet) {
-        padding-top: 15vh;
+    .bg-image {
+        height: 100%;
+        background-image: url('../../images/skyline.jpg');
+        background-color: black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
     }
 
-    @media (min-height: 675px) {
-        padding-top: 25vh;
+    .hello {
+        position: absolute;
+        text-align: right;
+        width: 25vw;
+        margin-left: 60vw;
+        top: 30%;
+        transform: translate(0, -50%);
+        z-index: 2;
     }
-}
-
-.mini-bio {
-    width: 50vw;
-    margin-left: 10vw;
-    padding-top: 40vw;
-
-    @media (min-width: $breakpoint-phablet) {
-        padding-top: 30vh;
-    }
-
-    @media (min-width: $breakpoint-tablet) {
-        padding-top: 35vh;
-    }
+    
+    .mini-bio {
+        position: absolute;
+        width: 50vw;
+        margin-left: 10vw;
+        top: 70%;
+        transform: translate(0, -50%);
+        z-index: 2;
+    }    
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/stylesheets/projects.css'
+import Flippy, { FrontSide, BackSide } from 'react-flippy'
 
 const Projects = () => {
 
@@ -13,7 +14,7 @@ const Projects = () => {
                 'React', 'Ruby on Rails', 'SASS'
             ],
             APIs: '',
-            description: 'A full-stack app with user authentication and full CRUD capabilities. Users can create an account and display their own art.'
+            description: 'Bspoke is a full-stack app with user authentication where users can create listings showcasing their own art. Backend database created with Ruby on Rails, user auth implemented with Bcrypt and JWT, frontend built in React, and styled with SASS.'
         },
         {
             title: 'NJTransit Re-design',
@@ -24,10 +25,10 @@ const Projects = () => {
                 'React', 'Express', 'Sequelize', 'CSS'
             ],
             APIs: '',
-            description: 'Group project, full-stack mobile site, based on wireframes provided by UX designers tasked with re-designing the existing NJTransit mobile site.'
+            description: 'The NJTransit Re-design (Group Project) is a full-stack mobile site based on wireframes provided by UX designers. Backend built in Express and Sequelize, frontend built in React, styled with CSS. Kept team organized and Agile via Jira, Git for version control, and Slack for communication.'
         },
         {
-            title: 'The Intermet',
+            title: 'The InterMet',
             url: 'http://the-intermet.surge.sh/',
             github: 'https://git.generalassemb.ly/Khimarra/The-InterMet',
             screenshot: 'https://i.imgur.com/UqOSWyr.jpg',
@@ -35,7 +36,7 @@ const Projects = () => {
                 'React', 'CSS'
             ],
             APIs: 'https://www.metmuseum.org/blogs/now-at-the-met/2018/met-collection-api',
-            description: 'React app built using a RESTful API to retreive and render info from the Met Collection.'
+            description: 'The InterMet is a React app that accesses the Metropolitan Museum of Art Collection API in order to display several random art pieces by department. Virtual DOM manipulation and front-end built with React, styled in CSS.'
         },
         {
             title: 'Techwitch Tarot',
@@ -46,41 +47,67 @@ const Projects = () => {
                 'JavaScript', 'HTML', 'CSS'
             ],
             APIs: 'https://rws-cards-api.herokuapp.com/',
-            description: 'this is a description of my tarot app'
+            description: 'Techwitch Tarot is an online Tarot reader that accesses the Rider-Waite Tarot API to fetch card information. DOM manipulation through JavaScript, structured in HTML, and styled in CSS.'
         }
     ]
 
     return (
         <div className='projects'>
-            <a id='projects'><h1 className='section-title'>Projects</h1></a>
+            <a id='projects'>
+                <h1 className='section-title'>Projects</h1>
+            </a>
             <div>
                 <div className='all-projects'>
 
                     {allProjects.map((project, index) => {
                         return (
-                            <div className='project-card'>
-                                <h2>{project.title}</h2>
-                                <div className='image-container'>
-                                    <img src={project.screenshot}></img>
-                                </div>
-                                <div className='languages'>
-                                    {project.languages.map((language, index) => {
-                                        return (
-                                            <h4>#{language}</h4>
-                                        )
-                                    })}
-                                    
-                                </div>
-                                
-                                <div className='fa-links project-links'>
-                                    <a className='icons' href={`${project.url}`} target='_blank'>
-                                        <i class="fas fa-link"></i>
-                                    </a>
-                                    <a className='icons' href={`${project.github}`} target='_blank'>
-                                        <i className="fab fa-github-square"></i>
-                                    </a>
-                                </div>
-                            </div>
+                            <Flippy
+                                flipOnClick={true}
+                                flipDirection="horizontal"
+                            >
+                                <FrontSide>
+                                    <div className='project-card'>
+                                        <h2>{project.title}</h2>
+                                        <div className='image-container'>
+                                            <img src={project.screenshot}></img>
+                                        </div>
+                                        <div className='languages'>
+                                            {project.languages.map((language, index) => {
+                                                return (
+                                                    <h4>#{language}</h4>
+                                                )
+                                            })}
+
+                                        </div>
+
+                                        <div className='fa-links project-links'>
+                                            <a className='icons' href={`${project.url}`} target='_blank'>
+                                                <i class="fas fa-link"></i>
+                                            </a>
+                                            <a className='icons' href={`${project.github}`} target='_blank'>
+                                                <i className="fab fa-github-square"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </FrontSide>
+
+                                <BackSide>
+                                    <div className='project-card back'>
+                                        <p>
+                                            {project.description}
+                                        </p>
+
+                                        <div className='fa-links project-links'>
+                                            <a className='icons' href={`${project.url}`} target='_blank'>
+                                                <i class="fas fa-link"></i>
+                                            </a>
+                                            <a className='icons' href={`${project.github}`} target='_blank'>
+                                                <i className="fab fa-github-square"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </BackSide>
+                            </Flippy>
                         )
                     })}
                 </div>

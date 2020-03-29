@@ -11,7 +11,7 @@
 
     .project-card {
         background: rgb(255,255,255);
-        background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(204,204,204,1) 48%, rgba(124,124,124,1) 100%);        
+        background: radial-gradient(circle, $light-gray 0%, $mid-gray 48%, $dark-gray 100%);        
         border-radius: 10px;
         box-shadow: 2px 5px 10px black;
         padding: 15px;
@@ -19,6 +19,7 @@
         height: 450px;
         margin: 10px;
         position: relative;
+        transition: all .3s ease-in-out;
 
         .image-container {
             width: 90%;
@@ -30,6 +31,18 @@
             border-radius: 10px;
             box-shadow: 2px 5px 10px $dark-gray;
         }
+
+        p {
+            padding: 20px;
+        }
+    }
+
+    .project-card:hover {
+        transform: scale(1.1); 
+    }
+
+    .back {
+        background: radial-gradient(circle, $mid-gray 0%, $dark-gray 55%, black 100%);
     }
 }
 
