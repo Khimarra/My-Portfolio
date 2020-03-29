@@ -16,6 +16,10 @@
     padding-top: 20vh;
 
     @media (min-width: $breakpoint-tablet) {
+        padding-top: 15vh;
+    }
+
+    @media (min-height: 675px) {
         padding-top: 25vh;
     }
 }
