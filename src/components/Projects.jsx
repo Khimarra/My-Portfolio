@@ -53,7 +53,7 @@ const Projects = () => {
             title: 'Portfolio',
             url: 'https://tarasolbrig.com',
             github: 'https://github.com/Khimarra/My-Portfolio',
-            screenshot: 'https://i.imgur.com/BSt1vYN.jpg',
+            screenshot: 'https://i.imgur.com/afCNPvs.jpg',
             languages: [
                 'React', 'SASS'
             ],
