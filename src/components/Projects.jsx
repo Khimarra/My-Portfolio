@@ -8,7 +8,7 @@ const Projects = () => {
         {
             title: 'Bspoke',
             url: 'http://bspoke-app.herokuapp.com/',
-            github: 'https://git.generalassemb.ly/Khimarra/Bspoke',
+            github: 'https://github.com/Khimarra/Bspoke',
             screenshot: 'https://i.imgur.com/F1mNU6x.jpg',
             languages: [
                 'React', 'Ruby on Rails', 'SASS'
@@ -19,7 +19,7 @@ const Projects = () => {
         {
             title: 'NJTransit Re-design',
             url: 'https://nj-transit-mobile.herokuapp.com/',
-            github: '',
+            github: 'https://github.com/Khimarra/NJTransit-Redesign',
             screenshot: 'https://i.imgur.com/7yWWpki.jpg',
             languages: [
                 'React', 'Express', 'Sequelize', 'CSS'
@@ -30,7 +30,7 @@ const Projects = () => {
         {
             title: 'The InterMet',
             url: 'http://the-intermet.surge.sh/',
-            github: 'https://git.generalassemb.ly/Khimarra/The-InterMet',
+            github: 'https://github.com/Khimarra/the-intermet',
             screenshot: 'https://i.imgur.com/UqOSWyr.jpg',
             languages: [
                 'React', 'CSS'
@@ -41,13 +41,24 @@ const Projects = () => {
         {
             title: 'Techwitch Tarot',
             url: 'https://pages.git.generalassemb.ly/Khimarra/Techwitch-Tarot/',
-            github: 'https://git.generalassemb.ly/Khimarra/Techwitch-Tarot',
+            github: 'https://github.com/Khimarra/Techwitch-Tarot',
             screenshot: 'https://i.imgur.com/BSt1vYN.jpg',
             languages: [
                 'JavaScript', 'HTML', 'CSS'
             ],
             APIs: 'https://rws-cards-api.herokuapp.com/',
             description: 'Techwitch Tarot is an online Tarot reader that accesses the Rider-Waite Tarot API to fetch card information. DOM manipulation through JavaScript, structured in HTML, and styled in CSS.'
+        },
+        {
+            title: 'Portfolio',
+            url: 'https://tarasolbrig.com',
+            github: 'https://github.com/Khimarra/My-Portfolio',
+            screenshot: 'https://i.imgur.com/BSt1vYN.jpg',
+            languages: [
+                'React', 'SASS'
+            ],
+            APIs: '',
+            description: "This is my portfolio, aka the page you're currently looking at! It is a frontend-only site built to showcase my work. New projects will be posted here. Built in React, styled in SASS."
         }
     ]
 
