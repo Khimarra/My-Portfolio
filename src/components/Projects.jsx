@@ -90,7 +90,7 @@ const Projects = () => {
                                     <div className='project-card'>
                                         <h2>{project.title}</h2>
                                         <div className='image-container'>
-                                            <img src={project.screenshot}></img>
+                                            <img src={project.screenshot} alt={project.title}></img>
                                         </div>
                                         <div className='languages'>
                                             {project.languages.map((language, index) => {
