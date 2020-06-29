@@ -4,7 +4,7 @@ import '../styles/stylesheets/contact.css'
 const Contact = () => {
     return (
         <div className='contact'>
-            <a id='contact'><h1 className='section-title'>Contact</h1></a>
+            <div id='contact'><h1 className='section-title'>Contact</h1></div>
             <div className='form-container'>
                 <form 
                     action="https://formspree.io/xpzlojyv" 

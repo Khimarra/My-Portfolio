@@ -24,7 +24,7 @@ const allLanguages = [
 const About = () => {
     return (
         <div className='about'>
-            <a id='about'><h1 className='section-title'>About</h1></a>
+            <div id='about'><h1 className='section-title'>About</h1></div>
             <div className='headshot-container'>
                 <img src={headshot} alt='headshot'></img>
             </div>

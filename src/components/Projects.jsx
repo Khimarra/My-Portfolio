@@ -74,9 +74,9 @@ const Projects = () => {
 
     return (
         <div className='projects'>
-            <a id='projects'>
+            <div id='projects'>
                 <h1 className='section-title'>Projects</h1>
-            </a>
+            </div>
             <div>
                 <div className='all-projects'>
 
