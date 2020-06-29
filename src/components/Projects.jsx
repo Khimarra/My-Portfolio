@@ -6,8 +6,18 @@ const Projects = () => {
 
     let allProjects = [
         {
+            title: 'Fetch - GAxDatadog Hackathon Winning App',
+            url: 'https://fetch-hs.netlify.app/',
+            github: 'https://github.com/ehighberg/fetch',
+            screenshot: 'https://imgur.com/fVmEJyy.jpg',
+            languages: [
+                'React', 'Ruby on Rails', 'Tailwind CSS'
+            ],
+            APIs: '',
+            description: 'Fetch is an employee directory and social media tool created in a week-long hackathon setting. It utilizes a Ruby on Rails server in order to organize employees by team, expertise, etc. and includes real-time chat with ActionCable. The front end is built with ReactJS and Tailwind CSS where users can navigate different teams, and employees are displayed with several pages of information listed, transitioning from professional to personal.'
+        },        {
             title: 'Bspoke',
-            url: 'http://bspoke-app.herokuapp.com/',
+            url: 'https://bspoke-app.herokuapp.com/',
             github: 'https://github.com/Khimarra/Bspoke',
             screenshot: 'https://i.imgur.com/F1mNU6x.jpg',
             languages: [
