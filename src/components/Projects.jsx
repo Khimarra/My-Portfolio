@@ -39,7 +39,7 @@ const Projects = () => {
         },
         {
             title: 'The InterMet',
-            url: 'http://the-intermet.surge.sh/',
+            url: 'https://the-intermet.surge.sh/',
             github: 'https://github.com/Khimarra/the-intermet',
             screenshot: 'https://i.imgur.com/UqOSWyr.jpg',
             languages: [
