@@ -6,6 +6,17 @@ const Projects = () => {
 
     let allProjects = [
         {
+            title: 'The X-Effect',
+            url: 'https://thexeffect.netlify.app/',
+            github: 'https://github.com/Khimarra/the-x-effect',
+            screenshot: 'https://imgur.com/oZB2O8q.jpg',
+            languages: [
+                'React', 'Mongo', 'Tailwind CSS'
+            ],
+            APIs: '',
+            description: 'The X-Effect is a simple habit tracker based on the subreddit r/xeffect. The idea was to create a productivity app that would actually help keep me on track with my own goals, including daily code practice! This is a React app styled with Tailwind CSS, built on a MongoDB server with bcrypt authentication.'
+        },
+        {
             title: 'Fetch - GAxDatadog Hackathon Winning App',
             url: 'https://fetch-hs.netlify.app/',
             github: 'https://github.com/ehighberg/fetch',
@@ -15,7 +26,8 @@ const Projects = () => {
             ],
             APIs: '',
             description: 'Fetch is an employee directory and social media tool created in a week-long hackathon setting. It utilizes a Ruby on Rails server in order to organize employees by team, expertise, etc. and includes real-time chat with ActionCable. The front end is built with ReactJS and Tailwind CSS where users can navigate different teams, and employees are displayed with several pages of information listed, transitioning from professional to personal.'
-        },        {
+        },        
+        {
             title: 'Bspoke',
             url: 'https://bspoke-app.herokuapp.com/',
             github: 'https://github.com/Khimarra/Bspoke',
