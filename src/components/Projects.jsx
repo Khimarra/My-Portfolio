@@ -9,7 +9,7 @@ const Projects = () => {
             title: 'The X-Effect',
             url: 'https://thexeffect.netlify.app/',
             github: 'https://github.com/Khimarra/the-x-effect',
-            screenshot: 'https://imgur.com/oZB2O8q.jpg',
+            screenshot: 'https://imgur.com/BfHEbD2.jpg',
             languages: [
                 'React', 'Mongo', 'Tailwind CSS'
             ],
