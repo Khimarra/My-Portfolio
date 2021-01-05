@@ -28,7 +28,7 @@ const About = () => {
             <div className='headshot-container'>
                 <img src={headshot} alt='headshot'></img>
             </div>
-            <a href='https://drive.google.com/file/d/1Ja6lV7uDfc2wyY45onu6j0pirADr6C-R/view?usp=sharing' target='_blank' rel="noopener noreferrer" className='resume-link'><h3>View my resume</h3></a>
+            <a href='https://docs.google.com/document/d/1ywG65cd8eA_d5eoAbttRdBbN66tHzVV8QMt2zb70BXQ/edit?usp=sharing' target='_blank' rel="noopener noreferrer" className='resume-link'><h3>View my resume</h3></a>
             <div className='languages about-languages'>
                 {allLanguages.map((language, index) => {
                     return(
